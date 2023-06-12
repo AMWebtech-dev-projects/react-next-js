@@ -1,0 +1,94 @@
+// .table__head{
+//   color: #FFF;
+//   font-weight: 700;
+//   background: #9b4085;
+//   background: -moz-linear-gradient(-45deg, #9b4085 0%, #608590 100%);
+//   background: -webkit-linear-gradient(-45deg, #9b4085 0%,#608590 100%);
+//   background: linear-gradient(135deg, #9b4085 0%,#608590 100%);
+//   white-space: nowrap;
+//   }
+//   .table-bordered td, .table-bordered th{
+//   border: 0px solid #FFF;
+//   }
+//   @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+// @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+// @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+// .winner__table{
+//     white-space: nowrap;
+// }
+
+// @media screen and (max-width: 567px) {
+
+//     .winner__table{
+//     font-size: 12px;
+//     }
+// }
+.table__head {
+  color: #FFF;
+  font-weight: 700;
+  background: #9b4085;
+  background: -moz-linear-gradient(-45deg, #9b4085 0%, #608590 100%);
+  background: -webkit-linear-gradient(-45deg, #9b4085 0%,#608590 100%);
+  background: linear-gradient(135deg, #9b4085 0%,#608590 100%);
+  white-space: nowrap;
+  
+}
+
+.table-bordered td, .table-bordered th {
+  border: 0px solid #FFF;
+}
+
+@-moz-keyframes spin {
+  100% {
+    -moz-transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+.winner__table {
+  white-space: nowrap;
+}
+
+@media screen and (max-width: 567px) {
+  .winner__table {
+    font-size: 12px;
+  }
+}
+
+// .switch-medium {
+//   height: 20px;
+//   width: 40px;
+//   background-color: #ccc;
+//   border-radius: 10px;
+// }
+
+// .switch-medium .switch-label {
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   height: 100%;
+//   font-size: 12px;
+//   font-weight: bold;
+//   color: #fff;
+//   background-color: #009EFB;
+//   border-radius: 10px;
+// }
+
+// .switch-medium .react-switch-bg {
+//   height: 100%;
+//   width: 100%;
+//   border-radius: 10px;
+// }

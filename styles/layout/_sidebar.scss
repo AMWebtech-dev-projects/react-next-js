@@ -1,0 +1,35 @@
+.sidebarArea {
+  flex-shrink: 0;
+
+  width: 260px;
+  position: fixed;
+  background-color: #fff;
+  top: 0px;
+  z-index: 1058;
+  height: 100vh;
+
+  width: $sidebarWidth;
+  background-color: $sidebarColor;
+
+  @include media-breakpoint-down(lg) {
+    .sidebarArea {
+      position: fixed;
+      top: 0;
+      height: calc(100vh - 4rem);
+      overflow: auto;
+      z-index: 1;
+
+      // transition: all 0.5s ease;
+      margin-left: -$sidebarWidth;
+
+      &.showSidebar {
+        margin-left: 0px;
+      }
+    }
+  }
+
+  .sidenav-bg:hover {
+    background-color: $gray-100;
+    border-radius: $border-radius;
+  }
+}
